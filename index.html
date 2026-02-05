@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ti ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Contenedor de lluvia de estrellas -->
+    <div id="starfield"></div>
+
+    <!-- Audio de fondo (loop + autoplay) -->
+    <audio id="bgMusic" loop autoplay preload="auto">
+        <source src="./stativs/hu xia - hong jue  la bendición del oficial del cielo ost  letra en español.mp3"
+            type="audio/mpeg">
+    </audio>
+
+    <!-- Mariposa animada -->
+    <div class="butterfly" id="butterfly">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 200">
+            <!-- Alas (animadas por CSS) -->
+            <g class="butterfly__wing">
+                <path
+                    d="M75.13 100s59.42 41.22 56.79 82.78c-.77 12.12-6.14 19.32-23.41 16.67C59.79 191.97 55.75 131.44 64 100h11.13Z" />
+                <path
+                    d="M68.22 100c1.15 19.13-4.22 72.17-29.35 70.47-23.04-1.56-40.43-16.38-38.76-28.04 2.69-18.75 39.33-41.3 47.58-42.43h20.53Z" />
+            </g>
+            <g class="butterfly__wing">
+                <path
+                    d="M75.13 100s59.42-41.22 56.79-82.78C131.15 5.1 125.78-2.1 108.51.55 59.79 8.03 55.75 68.56 64 100h11.13Z" />
+                <path
+                    d="M68.22 100C69.37 80.87 64 27.83 38.87 29.53 15.83 31.09-1.56 45.91.11 57.57 2.8 76.32 39.44 98.87 47.69 100h20.53Z" />
+            </g>
+            <!-- Cuerpo -->
+            <g class="butterfly__body">
+                <path
+                    d="M82.59 102.81a4.806 4.806 0 0 0 3.85 1.92c2.65 0 4.8-2.12 4.8-4.74s-2.15-4.74-4.8-4.74c-1.58 0-2.98.76-3.85 1.92-2.69-1.17-7.01-1.92-11.88-1.92-3.19 0-6.15.33-8.56.88-2.42-.55-5.37-.88-8.56-.88-4.22 0-8.03.57-10.72 1.48-2.69-.91-6.5-1.48-10.72-1.48-8.16 0-14.77 2.12-14.77 4.74s6.61 4.74 14.77 4.74c4.22 0 8.03-.57 10.72-1.48 2.69.91 6.5 1.48 10.72 1.48 3.19 0 6.15-.33 8.56-.88 2.42.55 5.37.88 8.56.88 4.87 0 9.19-.76 11.88-1.92Z" />
+                <path
+                    d="M89.97 101.73s0-.1.01-.15c.08-.51.56-.85 1.08-.77 12.36 1.97 28.14 10.97 33.05 23.76a.933.933 0 0 1-.55 1.2.94.94 0 0 1-1.21-.54c-4.66-12.14-19.75-20.7-31.59-22.59a.931.931 0 0 1-.79-.91Z" />
+                <path
+                    d="M89.97 98.27s0 .1.01.15c.08.51.56.85 1.08.77 12.36-1.97 28.14-10.97 33.05-23.76a.933.933 0 0 0-.55-1.2.94.94 0 0 0-1.21.54c-4.66 12.14-19.75 20.7-31.59 22.59-.46.07-.79.47-.79.91Z" />
+            </g>
+        </svg>
+    </div>
+
+    <!-- Título principal -->
+    <h1 class="title">Feliz Cumpleaños estrella ♡</h1>
+
+    <!-- Pergamino enrollado -->
+    <div class="scroll-container" id="scroll">
+        <!-- Rodillo superior -->
+        <div class="scroll-rod scroll-rod-top"></div>
+
+        <!-- Contenido del pergamino -->
+        <div class="scroll-content">
+            <div class="contenido">
+                <strong class="saludo">Para mi persona favorita</strong>
+                Para mi pequeño lucero.<br><br>
+
+                Buenos días mi bella Signora, mi pequeño solecito. ¿Ya 20 años, eh?<br>
+                Para ti, el tiempo debió de pasar tan rápido y lento al mismo tiempo. Tantos buenos y hermosos
+                recuerdos que cultivaste alrededor de tu vida, cada tesoro y momento que cuidaste en ti, siempre te
+                mostrará tu camino y tu persona.<br><br>
+
+                Y por esas 20 vueltas al sol, estoy yo, Carlos Fernando Muñoz Pérez, agradecido. Con Dios, el
+                universo, la vida, mi suegra y el destino de, aun a la distancia, poder estar presente en un día tan
+                importante para ti, mi amor.<br><br>
+
+                Un día que espero en Dios, en las Moiras, en la vida, y rezo a todos los Dioses que les pueda rezar,
+                que desde hoy hasta la propia eternidad, puedas vivir y disfrutar tu vida... y puedas brillar con
+                todo tu esplendor. Que puedas reír, amar, sentir, crecer, saltar, enojarte y sobre todo ¡MOMIR!
+                jajaja.<br><br>
+
+                Te amo, Sharon. Te amo desde el primer momento que te vi, te amé desde las tardes que me quedé
+                viéndote, te amé desde la distancia que me impide darte un beso en la frente y un abrazo.<br><br>
+
+                Espero que este y los demás cumpleaños que vengan en el futuro, estés siempre rodeada de personas
+                que te quieren y de aquellos a quienes iluminaste e iluminas su camino.<br><br>
+
+                Disfruta tu día mi niña, siempre tuyo.<br>
+                Tu programador favorito (Adahir no, ehhh). ❤️
+            </div>
+        </div>
+
+        <!-- Rodillo inferior -->
+        <div class="scroll-rod scroll-rod-bottom"></div>
+    </div>
+
+    <script>
+        // ==========================================
+        // CONTROL DE MÚSICA (autoplay + fallback)
+        // ==========================================
+        const bgMusic = document.getElementById('bgMusic');
+        bgMusic.volume = 0.70;
+
+        // Intentar reproducir al cargar (algunos navegadores lo bloquean)
+        bgMusic.play().catch(() => {
+            // Fallback: reproducir al primer click si autoplay está bloqueado
+            document.addEventListener('click', () => {
+                bgMusic.play();
+            }, { once: true });
+        });
+
+        // ==========================================
+        // CONTROL DEL PERGAMINO (abrir/cerrar)
+        // ==========================================
+        const scroll = document.getElementById('scroll');
+
+        scroll.addEventListener('click', (e) => {
+            scroll.classList.toggle('open');
+            // Explosión de corazones al abrir
+            if (scroll.classList.contains('open')) {
+                explode(e.clientX, e.clientY, "♡", "var(--corazon)");
+            }
+        });
+
+        // ==========================================
+        // EXPLOSIÓN GENÉRICA (símbolo + color)
+        // ==========================================
+        function explode(x, y, symbol = "♡", color = "var(--corazon)") {
+            for (let i = 0; i < 10; i++) {
+                const lbl = document.createElement("div");
+                lbl.className = "explode";
+                lbl.textContent = symbol;
+                lbl.style.left = x + "px";
+                lbl.style.top = y + "px";
+                lbl.style.color = color;
+
+                const dx = (Math.random() - 0.5) * 300 + "px";
+                const dy = (Math.random() - 0.5) * 300 + "px";
+                lbl.style.setProperty("--dx", dx);
+                lbl.style.setProperty("--dy", dy);
+                document.body.append(lbl);
+
+                lbl.addEventListener("animationend", () => lbl.remove());
+            }
+        }
+
+        // Event listener para el fondo (estrellas blancas)
+        document.body.addEventListener('click', (e) => {
+            // Solo explotar si no es el scroll
+            if (!e.target.closest('.scroll-container')) {
+                explode(e.clientX, e.clientY, "✰", "#ffffff");
+            }
+        });
+
+        // ==========================================
+        // ANIMACIÓN DE LA MARIPOSA (VUELO NATURAL)
+        // ==========================================
+        const butterfly = document.getElementById('butterfly');
+        const PI = Math.PI;
+
+        let state = {
+            x: -100,
+            y: 100,
+            vx: 0,
+            vy: 0,
+            time: 0
+        };
+
+        const config = {
+            rMin: 5,
+            rMax: 20,
+            deltaR: 15,
+            waveSpeed: 0.05,
+            flightSpeed: 1.5,
+            margin: 100
+        };
+
+        function resetButterfly(width, height) {
+            const startLeft = Math.random() < 0.5;
+
+            if (startLeft) {
+                state.x = -config.margin;
+                state.y = Math.random() * height;
+                setDirection(Math.random() * PI / 2 - PI / 4);
+            } else {
+                state.x = width + config.margin;
+                state.y = Math.random() * height;
+                setDirection(Math.random() * PI / 2 + 3 * PI / 4);
+            }
+        }
+
+        function setDirection(angle) {
+            state.vx = Math.cos(angle) * config.flightSpeed;
+            state.vy = Math.sin(angle) * config.flightSpeed;
+        }
+
+        function updateButterfly() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            state.x += state.vx;
+            state.y += state.vy;
+            state.time += 0.05;
+
+            const r = config.rMin + config.deltaR * Math.sin(state.time * 0.3);
+            const offset = r * Math.sin(state.time * 2);
+
+            const perpX = -state.vy / config.flightSpeed;
+            const perpY = state.vx / config.flightSpeed;
+
+            const visualX = state.x + perpX * offset;
+            const visualY = state.y + perpY * offset;
+
+            const angle = Math.atan2(state.vy, state.vx);
+            const rotation = (angle * 180 / PI) + 90 + (Math.cos(state.time * 2) * 10);
+
+            butterfly.style.transform = `translate(${visualX}px, ${visualY}px) rotate(${rotation}deg)`;
+
+            if (
+                state.x < -config.margin * 1.5 ||
+                state.x > width + config.margin * 1.5 ||
+                state.y < -config.margin * 1.5 ||
+                state.y > height + config.margin * 1.5
+            ) {
+                resetButterfly(width, height);
+            }
+
+            requestAnimationFrame(updateButterfly);
+        }
+
+        // Inicializar mariposa
+        resetButterfly(window.innerWidth, window.innerHeight);
+        updateButterfly();
+
+        // ==========================================
+        // LLUVIA DE ESTRELLAS (STARFALL EFFECT)
+        // ==========================================
+        const starfield = document.getElementById('starfield');
+
+        function createStar() {
+            const star = document.createElement('div');
+            star.className = 'star' + (Math.random() > 0.5 ? ' white' : '');
+
+            // Posición horizontal aleatoria
+            star.style.left = Math.random() * 100 + 'vw';
+
+            // Tamaño aleatorio (2px - 6px)
+            const size = 2 + Math.random() * 4;
+            star.style.width = size + 'px';
+            star.style.height = size + 'px';
+
+            // Velocidad aleatoria (3s - 8s)
+            const duration = 3 + Math.random() * 5;
+            star.style.animationDuration = duration + 's';
+
+            // Delay aleatorio para desincronizar
+            star.style.animationDelay = Math.random() * 2 + 's';
+
+            starfield.appendChild(star);
+
+            // Eliminar del DOM al terminar animación
+            star.addEventListener('animationend', () => star.remove());
+        }
+
+        // Generar estrellas continuamente
+        setInterval(createStar, 200);
+
+        // Crear algunas estrellas iniciales
+        for (let i = 0; i < 15; i++) {
+            setTimeout(createStar, i * 100);
+        }
+    </script>
+
+</body>
+
+</html>
