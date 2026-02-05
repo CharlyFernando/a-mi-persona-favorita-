@@ -217,24 +217,26 @@ body::before {
 }
 
 .contenido {
-    font-family: 'Faith', "Segoe Script", cursive;
+    font-family: 'EB Garamond', serif;
     color: #ffffff;
     text-align: left;
-    font-size: 17px;
+    font-size: 1.25rem;
     border: none;
     padding: 0;
     height: 100%;
-    line-height: 26px;
+    line-height: 1.6;
     max-height: none;
     overflow-y: visible;
-    letter-spacing: 0.5px;
+    font-weight: 500;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .contenido .saludo {
-    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    font-weight: 700;
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     color: #FFD700;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
